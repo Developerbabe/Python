@@ -1,0 +1,35 @@
+#생활코딩 Web Python 강의 1일차
+#문법-데이터타입 - 숫자
+print(1+1)
+#x+y는 이라는 값을 2라고 도출해낼수있다.
+
+#문법-데이터타입-문자열의 표현
+print("helloworld")
+#""는 문자열을 나타낼 때 사용하는 표현이다.
+print('Helloworld')
+#또한 '문자'도 문자를 나타낼 떄 사용하는 표현이다.
+print("Hell'o' world")
+#"안에 '를 넣음으로써 다른 표현을 할 수 있다.
+
+#escape
+print("Hell'o' \"w\"orld")
+#\를 앞에 넣어줌으로 "가 갖는 의미를 상쇄할 수 있다.
+#newline
+print('H')
+print('e')
+print('l')
+print('l')
+print('o')
+print('H\ne\nl\nl\no\n')
+#\n으로 한칸 띄어 표현할 수 있다.
+
+#docstring
+print('''
+H
+E
+L
+L
+O
+''')
+#역슬레시를 붙이지 않고 줄바꿈을 표현하고싶다면 '''을 붙여 표현한다.
+#텍스트가 긴 경우, docstring으로 표현하면 편리하다.
